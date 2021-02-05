@@ -1,0 +1,116 @@
+.stick_block_layer {
+	background-color: rgba(0, 0, 0, 0.4);
+	opacity: 1;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.stick_popup {
+	height: auto !important;
+	width: 34% !important;
+	background: #FFFFFF;
+	animation: zoomin 0.3s;
+	-webkit-animation: zoomin 0.3s;
+	border-radius: 10px;
+	border: 5px dashed #FF0000;
+}
+
+.stick_content {
+	padding: 25px 20px;
+}
+.stick_content b {
+	background: #000;
+	color: #FF0000;
+	margin: 0;
+	padding: 10px 4px;
+	font-weight: 700;
+	font-size: 61px;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+.stick_content p {
+	margin: 0;
+	font-size: 55px;
+	text-decoration: underline;
+	text-align: center;
+	color: #FF0000;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+.stick_content h2 {
+	font-size: 25px;
+	margin: 0;
+	font-weight: 300;
+	text-align: center;
+}
+.stick_content h2 span.lineThr {
+	text-decoration: line-through;
+}
+.stick_content a img {
+	border: 4px solid #DC0000;
+	padding: 8px;
+}
+.stick_close {
+	cursor: pointer;
+	position: absolute;
+	float: right;
+	font-size: 14px;
+	background-color: #000;
+	color: #FFFFFF;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	border-radius: 50%;
+	top: -18px;
+	right: -14px;
+	width: 31px;
+	height: 31px;
+	line-height: 16px;
+	border: 2px solid #ffffffd6;
+	font-weight: 900;
+}
+/* 
+CSS3 animation keyframes.
+*/
+@-webkit-keyframes zoomin{
+	0%{
+		position: absolute;
+		top: 0;
+		left: 50%;
+	}
+	100%{
+		position: absolute;
+		top: 40%;
+		left: 30%;
+		transition: .3s linear;
+		-webkit-transition: .3s linear;
+		-moz-transition: .3s linear;
+		-ms-transition: .3s linear;
+		-o-transition: .3s linear;
+}
+}
+@keyframes zoomin{
+	0%{
+		position: absolute;
+		top: 0;
+		left: 50%;
+	}
+	100%{
+		position: absolute;
+		top: 40%;
+		left: 50%;
+		height: 540px !important;
+		width: 33% !important;
+		transition: .3s linear;
+		-webkit-transition: .3s linear;
+		-moz-transition: .3s linear;
+		-ms-transition: .3s linear;
+		-o-transition: .3s linear;
+	}
+}

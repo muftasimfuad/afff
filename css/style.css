@@ -1,0 +1,504 @@
+/* 
+=========================================================
+        CSS Index
+=========================================================
+* header css start
+* marketer analyse css 
+* step area css start
+* cash back css start
+* credit css start
+* footer css start
+
+*/
+
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:wght@400;700;800&display=swap');
+/*All custom css */
+.orange{
+    color: #F98E00;
+}
+.blue{
+	color: #5A5FC4;
+	font-weight: bold;
+}
+.red{
+	color: #F82F59;
+}
+.bold{
+	font-weight: bold;
+}
+.zindex{
+	position: relative;
+	z-index: 9999;
+}
+/* header css start */
+.header_bg {
+	width: 100%;
+	background: linear-gradient(68.66deg, #8E2DE2 0%, #4A00E0 100%);
+	background: -webkit-linear-gradient(68.66deg, #8E2DE2 0%, #4A00E0 100%);
+	background: -moz-linear-gradient(68.66deg, #8E2DE2 0%, #4A00E0 100%);
+	background: -ms-linear-gradient(68.66deg, #8E2DE2 0%, #4A00E0 100%);
+	background: -o-linear-gradient(68.66deg, #8E2DE2 0%, #4A00E0 100%);
+}
+.bg_overlay {
+	background: url(../images/bg-overlay.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: auto;
+}
+.logo img {
+	width: 270.45px;
+	height: 60px;
+	margin-top: 12px;
+}
+.section_title .heading h4 {
+	font-family: Fjalla One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 46px;
+	line-height: 55px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin: 24px 0;
+}
+.section_title .sub_heading p {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+}
+.video_area {
+	text-align: center;
+	width: 90%;
+	height: 383px;
+	border: 4px solid #FFFFFF;
+	position: relative;
+}
+.video_area .venoframe.vbvid {
+	width: 100%;
+	height: 100%;
+}
+.figures .check_mark {
+	text-align: right;
+	padding-right: 16px;
+}
+.figures .checkmark_text a {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+	margin: 0;
+    margin-bottom: 27px;
+	text-align: justify;
+	position: relative;
+	text-decoration: none;
+}
+.figures .checkmark_text a::before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 1px;
+	border-bottom: 1px dashed #FFFFFF;
+	bottom: -8px;
+	left: 0;
+}
+a.header_button {
+	width: 691px;
+	height: auto;
+	background: linear-gradient(135deg, #00A4E3 0%, #00B6FB 100%);
+	background: -webkit-linear-gradient(135deg, #00A4E3 0%, #00B6FB 100%);
+	background: -moz-linear-gradient(135deg, #00A4E3 0%, #00B6FB 100%);
+	background: -ms-linear-gradient(135deg, #00A4E3 0%, #00B6FB 100%);
+	background: -o-linear-gradient(135deg, #00A4E3 0%, #00B6FB 100%);
+/* 	box-shadow: 2px 2px 4px rgba(0, 69, 96, 0.2), -2px -2px 4px rgba(0, 69, 96, 0.2), 2px -2px 4px rgba(0, 255, 255, 0.9), -2px 2px 5px rgba(0, 69, 96, 0.9), inset -1px 1px 2px rgba(0, 255, 255, 0.3), inset 1px -1px 2px rgba(0, 69, 96, 0.5); */
+	border-radius: 100px;
+	padding: 15px 50px;
+	text-decoration: none;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 44px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	margin-bottom: 36px;
+}
+/* header css end */
+/* marketer analyse css start */
+.analyse_area {
+	background: url(../images/section-pattern1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.analyse_wrapper .section_title .heading h4 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 30px;
+	line-height: 37px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #575B61;
+	text-shadow: none;
+	padding-top: 48px;
+	margin: 0;
+}
+.analyse_wrapper .section_title .sub_heading p {
+	font-size: 26px;
+	color: #575B61;
+	margin: 18px 0;
+	padding: 0;
+}
+.analyse_wrapper a.analyse_button {
+	font-family: Fjalla One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 29px;
+	line-height: 38px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 11px 70px;
+	background: #FF9400;
+	/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+	border-radius: 100px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 38px;
+	margin-top: 7px;
+}
+.analyse_wrapper .figures .checkmark_text a {
+	font-size: 13px;
+	line-height: 18px;
+	color: #575B61;
+	margin-bottom: 14px;
+	position: relative;
+	text-decoration: none;
+}
+.analyse_wrapper .figures .checkmark_text a::before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 1px;
+	border-bottom: 1px dashed #575B61;
+	bottom: 0;
+	left: 0;
+}
+.graph_image {
+	text-align: right;
+}
+/* marketer analyse css end */
+/* step area css start */
+.step_area {
+	background: #F3FBFD;
+	padding: 30px 0;
+}
+.step_area .step_bnt a {
+	font-family: Fjalla One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	line-height: 80px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding: 15px 65px;
+	background: #00ADEF;
+/* 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+	border-radius: 100px;
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+.step_area .step_head h4 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 29px;
+	line-height: 39px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+	margin: 0;
+	margin-bottom: 30px;
+	padding: 0 221px;
+}
+.single_step {
+	text-align: center;
+	text-align: -moz-center;
+}
+.step_area .single_step .device_image img {
+	width: 100%;
+}
+.step_area .single_step .step_text {
+    width: 196px;
+    height: 196px;
+    background: #00ADEF;
+    border-radius: 50%;
+    margin: auto;
+}
+.step_area .single_step .step_text p {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 16.03px;
+	line-height: 22px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding: 0 20px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+/* step area css end */
+/* cash back css start */
+.cashback_bg {
+	background-image: url(../images/bg-patterns.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-position: top;
+	position: relative;
+}
+.cashback_bg::before {
+	position: absolute;
+	content: "";
+	background: url(../images/Shape-1.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 84%;
+}
+.cash_content {
+	padding: 0 83px;
+	margin-bottom: 45px;
+}
+.cash_content .heading h4 {
+	font-family: Fjalla One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 63px;
+	text-align: justify;
+	text-transform: capitalize;
+	color: #FF9201;
+}
+.cash_content .text p {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: justify;
+	color: #000000;
+	margin: 0;
+	margin-bottom: 35px;
+}
+.progress_bar img {
+	width: 100%;
+}
+/* cash back css end */
+/* credit css start */
+.credit_overly {
+	position: relative;
+}
+.credit_overly::before {
+	position: absolute;
+	content: "";
+	background: url(../images/Shape-2.png);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	top: 0;
+	left: 0;
+}
+.credit_overly::after {
+	position: absolute;
+	content: "";
+	background: url(../images/A/shapesssssss.png);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	top: 32%;
+	left: 0;
+	background-size: 70px;
+}
+.shape7{
+	position: relative;
+}
+.shape7::before {
+	position: absolute;
+	content: "";
+	background: url(../images/shape-7.png);
+	background-repeat: no-repeat;
+	width: 5%;
+	height: 100%;
+	left: 95%;
+	bottom: -59%;
+}
+.credit_area{
+	position: relative;
+}
+.credit_area::before {
+	position: absolute;
+	content: "";
+	background: url(../images/A/shapessssssssssssssssssss.png);
+	width: 10%;
+	height: 100%;
+	background-repeat: no-repeat;
+	top: 0;
+	left: 90%;
+}
+.credit_area{
+	background: #F3FBFD;
+}
+.credit_btn {
+	text-align: center;
+	width: 100%;
+	padding: 21px 127px;
+}
+.credit_btn a {
+	font-family: Fjalla One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	line-height: 57px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding: 15px 125px;
+	background: #F82F59;
+/* 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+	border-radius: 100px;
+	text-decoration: none;
+}
+.credit_area .section_title .heading h4 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 39px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #000000;
+	margin: 0;
+}
+.credit_area .product_box img {
+	width: 100%;
+	position: relative;
+	left: -12%;
+}
+.credit_area .figures .checkmark_text a {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+	color: #2F2F2F;
+	padding-right: 93px;
+	padding-bottom: 10px;
+	position: relative;
+	text-decoration: none;
+}
+.credit_area .figures .checkmark_text a::before {
+	position: absolute;
+	content: "";
+	width: 81%;
+	height: 1px;
+	border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+	bottom: -8px;
+	left: 0;
+}
+.creditContent_wrap {
+	padding-top: 33px;
+}
+/* credit css end */
+/* footer css start */
+.footer_area{
+	background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+	background: -webkit-linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+	background: -moz-linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+	background: -ms-linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+	background: -o-linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+}
+.foooter_overly {
+	position: relative;
+}
+.foooter_overly::before {
+	position: absolute;
+	content: "";
+	background: url(../images/shape-5.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-size: 260px;
+}
+.foooter_overly::after {
+	position: absolute;
+	content: "";
+	background: url(../images/shape-6.png);
+	background-repeat: no-repeat;
+	width: 8%;
+	height: 47%;
+	right: 0;
+	top: 53%;
+	background-size: 108px;
+}
+.footer_area .section_title .heading h4 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 49px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding-top: 30px;
+	margin: 0;
+}
+.footer_area .footer_logo img {
+	width: 477.8px;
+	height: 106px;
+	margin-top: -6px;
+}
+.footer_area .device_mockup img{
+	width: 100%;
+}
+.footer_area .footer_btn a {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 27px;
+	line-height: 39px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	padding: 30px 38px;
+	background: #F82F59;
+	/* box-shadow: 2px 2px 4px rgba(0, 69, 96, 0.2), -2px -2px 4px rgba(0, 69, 96, 0.2), 2px -2px 4px rgba(0, 255, 255, 0.9), -2px 2px 5px rgba(0, 69, 96, 0.9), inset -1px 1px 2px rgba(0, 255, 255, 0.3), inset 1px -1px 2px rgba(0, 69, 96, 0.5); */
+	border-radius: 100px;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+.ceckout_button {
+	margin-top: 30px;
+}
+.payment_method.text-center img {
+	padding: 12px 0 15px 0;
+}
+/* footer css end */

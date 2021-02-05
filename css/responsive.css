@@ -1,0 +1,925 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .stick_popup {
+        width: 510px !important;
+        margin-top: -224px !important;
+        height: 528px !important;
+    }
+    .stick_content {
+        padding: 20px 20px 0 20px;
+    }
+    .stick_content b {
+        font-size: 61px !important;
+        letter-spacing: 5px;
+        padding: 0 4px;
+    }
+    .stick_content p {
+        font-size: 42px;
+    }
+    .stick_content h2.pt-20 {
+        padding-top: 13px;
+    }
+    .stick_content h2.pb-20 {
+        padding-bottom: 13px;
+    }
+    .cashback_bg::before {
+        top: 88%;
+        background-size: 134px;
+    }
+    .credit_overly::before {
+        background-size: 134px;
+    }
+    .creditContent_wrap {
+        padding-top: 33px;
+        margin-top: 60px;
+    }
+    .check_mark.red_checkMark {
+        text-align: right;
+        padding-right: 13px;
+    }
+    .check_mark.red_checkMark img {
+        width: 30px;
+        height: 30px;
+    }
+    .graph_image img{
+        transition: .3s linear;
+        -webkit-transition: .3s linear;
+        -moz-transition: .3s linear;
+        -ms-transition: .3s linear;
+        -o-transition: .3s linear;
+        cursor: pointer;
+    } 
+    .graph_image img:hover{
+        transform: scale(1.05);
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .stick_popup {
+        width: 41% !important;
+        margin-top: -211.5px !important;
+    }
+    .stick_content b {
+        font-size: 43px;
+    } 
+    .stick_content p {
+        font-size: 41px;
+    }
+    .stick_content h2 {
+        font-size: 22px;
+    }
+    /* header css start */
+    .section_title .heading h4 {
+        font-size: 36px;
+        line-height: 47px;
+        margin-bottom: 24px;
+    }
+    .section_title .sub_heading p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .video_area {
+        width: 105%;
+        height: 82%;
+    }
+    .figures .check_mark {
+        text-align: right;
+        padding-right: 10px;
+    }
+    .check_mark img {
+        width: 25.22px;
+        height: 25.22px;
+    }
+    .figures .checkmark_text a {
+        font-size: 12px;
+        line-height: 16px;
+        padding-bottom: 5px;
+        margin-bottom: 17px;
+    }
+    .bg_overlay {
+        background: none;
+    }
+    a.header_button {
+        font-size: 18.8px;
+        line-height: 25px;
+        width: 422.24px;
+        height: auto;
+    }
+    /* header css end */
+    /* marketer analyse css start */
+    .analyse_wrapper .section_title .heading h4 {
+        font-size: 24px;
+        line-height: 35px;
+        margin-bottom: 16px;
+        padding-top: 24px;
+    }
+    .analyse_wrapper .section_title .sub_heading p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .analyse_wrapper a.analyse_button {
+        font-size: 24px;
+        line-height: 25px;
+    }
+    .analyse_wrapper .figures .checkmark_text a {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .graph_image img{
+        transition: .3s linear;
+        -webkit-transition: .3s linear;
+        -moz-transition: .3s linear;
+        -ms-transition: .3s linear;
+        -o-transition: .3s linear;
+        cursor: pointer;
+    } 
+    .graph_image img:hover{
+        transform: scale(1.03);
+        -webkit-transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        -o-transform: scale(1.03);
+    }
+    /* marketer analyse css end */
+    /* step area css start */
+        .step_area .step_bnt a {
+            font-size: 37px;
+            line-height: 47px;
+            padding: 13px 65px;
+        }
+        .step_area .step_head h4 {
+            font-size: 17px;
+            line-height: 21px;
+        }
+        .step_area .single_step .step_text {
+            width: 160.38px;
+            height: 160.38px;
+        }
+        .step_area .single_step .step_text p {
+            font-size: 14px;
+            line-height: 15px;
+            padding: 0 12px;
+        }
+    /* step area css end */
+    /* cash back css start */
+    .container.pt-65 {
+        padding-top: 33px;
+    }
+    .cash_content {
+        padding: 0 127px;
+        margin-bottom: 72px;
+    }
+    .cash_content .heading h4 {
+        font-size: 29px;
+        line-height: 32px;
+    }
+    .cash_content .text p {
+        font-size: 14px;
+        line-height: 15px;
+        margin-bottom: 16px;
+    }
+    .cashback_bg::before {
+        top: 82%;
+        background-size: 158px;
+    }
+    /* cash back css end */
+    /* credit css start */
+    .credit_area::before {
+        left: 90%;
+        background-size: 115px;
+    }
+    .credit_overly::before {
+        background-size: 157px;
+    }
+    .credit_overly::after {
+        top: 30%;
+        background-size: 54px;
+    }
+    .shape7::before {
+        bottom: -63%;
+        background-size: 22px;
+    }
+    .credit_btn {
+        padding: 30px 0;
+    }
+    .credit_btn a {
+        font-size: 26.0625px;
+        line-height: 33px;
+        padding: 15px 51px;
+    }
+    .credit_area .section_title .heading h4 {
+        font-size: 20.533px;
+        line-height: 25px;
+    }
+    .creditContent_wrap {
+        padding-top: 0;
+        margin-top: 36px;
+    }
+    .credit_area .figures .checkmark_text a {
+        font-size: 14px;
+        line-height: 17px;
+        padding-bottom: 1px;
+    }
+    .credit_area .figures .checkmark_text a::before {
+        width: 77%;
+    }
+    /* credit css end */
+    /* footer css start */
+    .footer_area .section_title .heading h4 {
+        font-size: 23px;
+        line-height: 0;
+        margin: 0;
+        padding: 32px 0 31px 0;
+    }
+    .footer_area .footer_logo img {
+        width: 297.5px;
+        height: 66px;
+        margin-bottom: 45px;
+    }
+    .footer_area .footer_btn a {
+        font-size: 19px;
+        line-height: 23px;
+        padding: 20px 29px;
+    }
+    .foooter_overly::before {
+        background-size: 199px;
+    }
+    .foooter_overly::after {
+        width: 7%;
+        background-size: 91px;
+    }
+    /* footer css end */
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.stick_popup {
+		width: 49% !important;
+		margin-left: -192px !important;
+		margin-top: -203px !important;
+	}
+    .stick_content {
+        padding: 14px 20px;
+    }
+    .stick_content b {
+        font-size: 49px;
+    }
+    .stick_content p {
+        font-size: 43px;
+    }
+    /* header css start */
+    .section_title .heading h4 {
+        font-size: 29px;
+        line-height: 35px;
+        margin-bottom: 24px;
+    }
+    .section_title .sub_heading p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .video_area {
+        width: 106%;
+        height: 202.22px;
+    }
+    .figures .check_mark {
+        text-align: right;
+        padding-right: 10px;
+    }
+    .check_mark img {
+        width: 20.22px;
+        height: 20.22px;
+    }
+    .figures .checkmark_text a {
+        font-size: 10px;
+        line-height: 12px;
+        padding-bottom: 5px;
+        margin-bottom: 17px;
+    }
+    .bg_overlay {
+        background: none;
+    }
+    a.header_button {
+        font-size: 17.8px;
+        line-height: 25px;
+        width: 399.24px;
+        height: auto;
+    }
+    /* header css end */
+    /* marketer analyse css start */
+    .analyse_wrapper .section_title .heading h4 {
+        font-size: 17px;
+        line-height: 21px;
+        margin-bottom: 13px;
+        padding-top: 22px;
+    }
+    .analyse_wrapper .section_title .sub_heading p {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 0;
+    }
+    .analyse_wrapper a.analyse_button {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 11px 41px;
+    }
+    .analyse_wrapper .figures .checkmark_text a {
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .graph_image img{
+        transition: .3s linear;
+        -webkit-transition: .3s linear;
+        -moz-transition: .3s linear;
+        -ms-transition: .3s linear;
+        -o-transition: .3s linear;
+        cursor: pointer;
+    } 
+    .graph_image img:hover{
+        transform: scale(1.03);
+        -webkit-transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        -o-transform: scale(1.03);
+    }
+    /* marketer analyse css end */
+    /* step area css start */
+        .step_area .step_bnt a {
+            font-size: 37px;
+            line-height: 47px;
+            padding: 13px 65px;
+        }
+        .step_area .step_head h4 {
+            font-size: 17px;
+            line-height: 23px;
+            padding: 0 165px;
+        }
+        .step_area .single_step .step_text {
+            width: 130.38px;
+            height: 130.38px;
+        }
+        .step_area .single_step .step_text p {
+            font-size: 12px;
+            line-height: 15px;
+            padding: 0 12px;
+        }
+    /* step area css end */
+    /* cash back css start */
+    .container.pt-65 {
+        padding-top: 33px;
+    }
+    .cash_content {
+        padding: 0 47px;
+        margin-bottom: 62px;
+    }
+    .cash_content .heading h4 {
+        font-size: 29px;
+        line-height: 32px;
+    }
+    .cash_content .text p {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 8px;
+    }
+    .cashback_bg::before {
+        top: 83%;
+        background-size: 123px;
+    }
+    /* cash back css end */
+    /* credit css start */
+    .credit_area::before {
+        background-size: 95px;
+        left: 91%;
+        width: 9%;
+    }
+    .credit_overly::before {
+        background-size: 123px;
+    }
+    .credit_overly::after {
+        top: 34%;
+        background-size: 39px;
+    }
+    .shape7::before {
+        bottom: -53%;
+        background-size: 22px;
+    }
+    .credit_btn {
+        padding: 6px 51px;
+    }
+    .credit_btn a {
+        font-size: 24.063px;
+        line-height: 29px;
+        width: 509px;
+        padding: 15px 99px;
+    }
+    .credit_area .section_title .heading h4 {
+        font-size: 18.5333px;
+        line-height: 23px;
+    }
+    .creditContent_wrap {
+        padding-top: 0;
+        margin-top: 36px;
+    }
+    .credit_area .figures .checkmark_text a {
+        font-size: 10px;
+        line-height: 12px;
+        padding-bottom: 1px;
+    }
+    .credit_area .figures .checkmark_text a::before {
+        width: 71%;
+    }
+    /* credit css end */
+    /* footer css start */
+    .foooter_overly::before {
+        background-size: 144px;
+    }
+    .foooter_overly::after {
+        width: 7%;
+        top: 58%;
+        background-size: 72px;
+        height: 40%;
+    }
+    .footer_area .section_title .heading h4 {
+        font-size: 23px;
+        line-height: 0;
+        margin: 0;
+        padding: 32px 0 31px 0;
+    }
+    .footer_area .footer_logo img {
+        width: 297.5px;
+        height: 66px;
+        margin-bottom: 45px;
+    }
+    .footer_area .footer_btn a {
+        font-size: 15px;
+        line-height: 23px;
+        padding: 20px 29px;
+    }
+    /* footer css end */
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.stick_popup {
+	width: 57% !important;
+	margin-left: -180px !important;
+	margin-top: -207px !important;
+	}
+    .stick_content b {
+        font-size: 39px;
+    }
+    .stick_content p {
+        font-size: 35px;
+    }
+    .stick_content h2 {
+        font-size: 21px;
+    }
+    /* header css start */
+    .logo img {
+        width: 140.73px;
+        height: 40.85px;
+    }
+    .section_title .heading h4 {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 24px;
+    }
+    .section_title .sub_heading p {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 0;
+    }
+    .video_area {
+        width: 100%;
+        height: 228px;
+        margin-bottom: 20px;
+    }
+    .figures .check_mark {
+        text-align: center;
+        padding-right: 0;
+    }
+    .check_mark img {
+        width: 29.22px;
+        height: 29.22px;
+        margin-right: 10px;
+    }
+    .figures .checkmark_text a {
+        font-size: 12px;
+        line-height: 20px;
+        padding-bottom: 9px;
+        margin-bottom: 21px;
+    }
+    .bg_overlay {
+        background: none;
+    }
+    a.header_button {
+        font-size: 18px;
+        line-height: 21px;
+        width: 100%;
+        height: auto;
+        padding: 10px 50px;
+    }
+    /* header css end */
+    /* marketer analyse css start */
+    .analyse_wrapper {
+        padding-top: 10px;
+        padding-bottom: 33px;
+    }
+    .analyse_wrapper .section_title .heading h4 {
+        font-size: 15px;
+        line-height: 17px;
+        margin-bottom: 13px;
+        padding-top: 22px;
+    }
+    .analyse_wrapper .section_title .sub_heading p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0;
+    }
+    .analyse_wrapper a.analyse_button {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 7px 34px;
+        width: 75%;
+    }
+    .analyse_wrapper .figures .checkmark_text a {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .graph_image {
+        margin-top: 15px;
+    }
+    .analyse_area {
+        background: none;
+    }
+    /* marketer analyse css end */
+    /* step area css start */
+    .step_area .step_bnt a {
+        font-size: 20px;
+        line-height: 25px;
+        padding: 8px 59px;
+    }
+    .step_area .step_head h4 {
+        font-size: 15px;
+        line-height: 13px;
+        padding: 0;
+    }
+    .single_step {
+        margin-bottom: 15px;
+    }
+    .step_area .single_step .step_text {
+        width: 186.2px;
+        height: 186.2px;
+    }
+    .step_area .single_step .step_text p {
+        font-size: 18px;
+        line-height: 21px;
+        padding: 0 12px;
+    }
+    /* step area css end */
+    /* cash back css start */
+    .container.pt-65 {
+        padding-top: 33px;
+    }
+    .cash_content {
+        padding: 0 9px;
+        margin-bottom: 30px;
+    }
+    .cash_content .heading h4 {
+        font-size: 23px;
+        line-height: 23px;
+    }
+    .cash_content .text p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+    .cashback_bg {
+        background:none;
+    }
+    .cashback_bg::before {
+        display: none;
+    }
+    /* cash back css end */
+    /* credit css start */
+    .credit_area::before {
+        display: none;
+    }
+    .credit_overly::after {
+        display: none;
+    }
+    .credit_overly{
+        background: none;
+    }
+    .credit_overly::before {
+        display: none;
+    }
+    .credit_overly::after {
+        display: none;
+    }
+    .shape7::before {
+        display: none;
+    }
+    .credit_area {
+        padding: 25px 0;
+    }
+    .credit_btn {
+        padding: 6px 41px;
+    }
+    .credit_btn a {
+        font-size: 22px;
+        line-height: 22px;
+        padding: 9px 0;
+    }
+    .credit_area .section_title .heading h4 {
+        font-size: 17px;
+        line-height: 19px;
+        margin-top: 10px;
+    }
+    .creditContent_wrap {
+        padding-top: 0;
+        margin-top: 36px;
+    }
+    .credit_area .product_box img {
+        width: 100%;
+        position: relative;
+        right: 17%;
+        top: 50%;
+        margin-bottom: 25px;
+    }
+    .credit_area .figures .checkmark_text a {
+        font-size: 12px;
+        line-height: 15px;
+        padding-right: 8px;
+        padding-bottom: 1px;
+    }
+    .credit_area .figures .checkmark_text a::before {
+        width: 100%;
+    }
+    /* credit css end */
+    /* footer css start */
+    .foooter_overly::before {
+        background: none;
+    }
+    .foooter_overly::after {
+        background: none;
+    }
+    .footer_area .section_title .heading h4 {
+        font-size: 25px;
+        line-height: 17px;
+        margin: 0;
+        padding: 32px 0 31px 0;
+    }
+    .footer_area .footer_logo img {
+        width: 158.23px;
+        height: 36px;
+        margin-bottom: 26px;
+    }
+    .footer_area .footer_btn a {
+        font-size: 12px;
+        line-height: 14px;
+        padding: 15px 25px;
+        margin-top: 11px;
+        margin-bottom: 5px;
+    }
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.stick_popup {
+	width: 67% !important;
+	margin-left: 0 !important;
+	margin-top: 0 !important;
+	position: absolute !important;
+	top: 50% !important;
+	left: 50% !important;
+	transform: translate(-50%,-50%) !important;
+    }
+    .stick_content b {
+        font-size: 29px;
+    }
+    .stick_content p {
+        font-size: 25px;
+    }
+    .stick_content h2 {
+        font-size: 16px;
+    }
+    /* header css start */
+    .logo img {
+        width: 130.73px;
+        height: 29.85px;
+    }
+    .section_title .heading h4 {
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 24px;
+    }
+    .section_title .sub_heading p {
+        font-size: 11px;
+        line-height: 17px;
+        padding: 0 17px;
+    }
+    .video_area {
+        width: 100%;
+        height: 228px;
+        margin-bottom: 20px;
+    }
+    .figures .check_mark {
+        text-align: center;
+        padding-right: 0;
+    }
+    .check_mark img {
+        width: 29.22px;
+        height: 29.22px;
+        margin-right: 10px;
+    }
+    .figures .checkmark_text a {
+        font-size: 12px;
+        line-height: 20px;
+        padding-bottom: 9px;
+        margin-bottom: 21px;
+    }
+    .bg_overlay {
+        background: none;
+    }
+    a.header_button {
+        font-size: 11px;
+        line-height: 21px;
+        width: 100%;
+        height: auto;
+        padding: 10px 50px;
+    }
+    /* header css end */
+    /* marketer analyse css start */
+    .analyse_wrapper {
+        padding-top: 10px;
+        padding-bottom: 33px;
+    }
+    .analyse_wrapper .section_title .heading h4 {
+        font-size: 15px;
+        line-height: 17px;
+        margin-bottom: 13px;
+        padding-top: 22px;
+    }
+    .analyse_wrapper .section_title .sub_heading p {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0;
+    }
+    .analyse_wrapper a.analyse_button {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 7px 0;
+        width: 88%;
+    }
+    .analyse_wrapper .figures .checkmark_text a {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .graph_image {
+        margin-top: 15px;
+    }
+    .analyse_area {
+        background: none;
+    }
+    /* marketer analyse css end */
+    /* step area css start */
+    .step_area .step_bnt a {
+        font-size: 20px;
+        line-height: 25px;
+        padding: 8px 59px;
+    }
+    .step_area .step_head h4 {
+        font-size: 11px;
+        line-height: 13px;
+        padding: 0;
+    }
+    .single_step {
+        margin-bottom: 15px;
+    }
+    .step_area .single_step .step_text {
+        width: 186.2px;
+        height: 186.2px;
+    }
+    .step_area .single_step .step_text p {
+        font-size: 18px;
+        line-height: 21px;
+        padding: 0 12px;
+    }
+    /* step area css end */
+    /* cash back css start */
+    .container.pt-65 {
+        padding-top: 33px;
+    }
+    .cash_content {
+        padding: 0 9px;
+        margin-bottom: 30px;
+    }
+    .cash_content .heading h4 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .cash_content .text p {
+        font-size: 13px;
+        line-height: 17px;
+        margin-bottom: 15px;
+    }
+    .cashback_bg {
+        background:none;
+    }
+    .cashback_bg::before {
+        display: none;
+    }
+    /* cash back css end */
+    /* credit css start */
+    .credit_area::before {
+        display: none;
+    }
+    .credit_overly::after {
+        display: none;
+    }
+    .credit_overly{
+        background: none;
+    }
+    .credit_overly::before {
+        display: none;
+    }
+    .shape7::before {
+        display: none;
+    }
+    .credit_area {
+        padding: 25px 0;
+    }
+    .credit_btn {
+        padding: 6px 41px;
+    }
+    .credit_btn a {
+        font-size: 22px;
+        line-height: 22px;
+        padding: 9px 0;
+    }
+    .credit_area .section_title .heading h4 {
+        font-size: 15px;
+        line-height: 19px;
+        margin-top: 10px;
+    }
+    .creditContent_wrap {
+        padding-top: 0;
+        margin-top: 36px;
+    }
+    .credit_area .product_box img {
+        width: 100%;
+        position: relative;
+        right: 17%;
+        top: 50%;
+        margin-bottom: 25px;
+    }
+    .credit_area .figures .checkmark_text a {
+        font-size: 12px;
+        line-height: 15px;
+        padding-right: 8px;
+        padding-bottom: 1px;
+    }
+    .credit_area .figures .checkmark_text a::before {
+        width: 100%;
+    }
+    /* credit css end */
+    /* footer css start */
+    .foooter_overly::before {
+        background: none;
+    }
+    .foooter_overly::after {
+        background: none;
+    }
+    .footer_area .section_title .heading h4 {
+        font-size: 14px;
+        line-height: 17px;
+        margin: 0;
+        padding: 32px 0 31px 0;
+    }
+    .footer_area .footer_logo img {
+        width: 135.23px;
+        height: 30px;
+        margin-bottom: 45px;
+    }
+    .footer_area .footer_btn a {
+        font-size: 12px;
+        line-height: 14px;
+        padding: 15px 25px;
+        margin-top: 11px;
+        margin-bottom: 5px;
+    }
+    /* footer css end */
+}
+
